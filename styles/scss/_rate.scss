@@ -26,14 +26,11 @@ section.rate {
       background: var.$primary-color;
       width: 100%;
       height: 2.75rem;
-      & p {
-        letter-spacing: 0.3rem;
-      }
+      letter-spacing: 0.3rem;
+      color: var.$white;
       &:hover {
         background: var.$white;
-        & p {
-          color: var.$primary-color;
-        }
+        color: var.$primary-color;
       }
     }
   }

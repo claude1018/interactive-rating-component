@@ -138,14 +138,11 @@ section.rate div button {
   background: #fb7413;
   width: 100%;
   height: 2.75rem;
-}
-section.rate div button p {
   letter-spacing: 0.3rem;
+  color: white;
 }
 section.rate div button:hover {
   background: white;
-}
-section.rate div button:hover p {
   color: #fb7413;
 }
 

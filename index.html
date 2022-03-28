@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
     <link rel="stylesheet" href="styles/css/styles.css" />
     <link
       rel="icon"
@@ -19,52 +19,52 @@
     <title>Interactive rating component | Frontend Mentor</title>
   </head>
   <body>
-    <div class="container flex flex-d-row flex-jc-center flex-ai-center">
-      <section id="ratePage" class="rate card">
-        <div class="wrapper circle">
-          <a href="#" class="np-nm">
+    <main>
+      <div class="container flex flex-d-row flex-jc-center flex-ai-center">
+        <section id="ratePage" class="rate card">
+          <div class="wrapper circle">
             <img
               class="np-nm"
               src="images/icon-star.svg"
               alt="star icon"
               aria-hidden="true"
             />
-          </a>
-        </div>
-        <h1>How did we do?</h1>
-        <p>
-          Please let us know how we did with your support request. All feedback
-          is appreciated to help us improve our offering!
-        </p>
-        <div class="ratings flex flex-d-row flex-jc-space-between">
-          <span class="np-nm choice circle"> 1 </span>
-          <span class="np-nm choice circle"> 2 </span>
-          <span class="np-nm choice circle"> 3 </span>
-          <span class="np-nm choice circle"> 4 </span>
-          <span class="np-nm choice circle"> 5 </span>
-        </div>
-        <div class="flex flex-d-row flex-jc-center">
-          <button type="submit" id="submit">SUBMIT</button>
-        </div>
-      </section>
-      <section
-        id="tyPage"
-        class="ty card flex flex-d-column flex-jc-space-evenly flex-ai-center hide"
-      >
-        <a href="#"
-          ><img
-            src="images/illustration-thank-you.svg"
-            alt="thank you image"
-            aria-hidden="true"
-        /></a>
-        <p class="msg">You selected <span id="rating">0</span> out of 5</p>
-        <h1>Thank you!</h1>
-        <p>
-          We appreciate you taking the time to give a rating. If you ever need
-          more support, don’t hesitate to get in touch!
-        </p>
-      </section>
-    </div>
+          </div>
+          <h1>How did we do?</h1>
+          <p>
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+          <div class="ratings flex flex-d-row flex-jc-space-between">
+            <span class="np-nm choice circle"> 1 </span>
+            <span class="np-nm choice circle"> 2 </span>
+            <span class="np-nm choice circle"> 3 </span>
+            <span class="np-nm choice circle"> 4 </span>
+            <span class="np-nm choice circle"> 5 </span>
+          </div>
+          <div class="flex flex-d-row flex-jc-center">
+            <button type="submit" id="submit">SUBMIT</button>
+          </div>
+        </section>
+        <section
+          id="tyPage"
+          class="ty card flex flex-d-column flex-jc-space-evenly flex-ai-center hide"
+        >
+          <a href="#"
+            ><img
+              src="images/illustration-thank-you.svg"
+              alt="thank you image"
+              aria-hidden="true"
+          /></a>
+          <p class="msg">You selected <span id="rating">0</span> out of 5</p>
+          <h1>Thank you!</h1>
+          <p>
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don’t hesitate to get in touch!
+          </p>
+        </section>
+      </div>
+    </main>
     <footer>
       <div class="attribution flex flex-jc-center">
         Challenge by&nbsp;

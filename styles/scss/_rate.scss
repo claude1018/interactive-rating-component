@@ -1,0 +1,40 @@
+@use './variables' as var;
+
+section.rate {
+  margin: 0;
+  padding-top: 0;
+  & .wrapper {
+    width: 2.5rem;
+    @include var.md-large {
+      width: 3.125rem;
+    }
+  }
+  & h1,
+  p {
+    color: var.$white;
+    font-family: 'Overpass', sans-serif;
+  }
+  & p {
+    font-size: 0.9375rem;
+  }
+
+  div {
+    margin-top: 1.375rem;
+    button {
+      border: none;
+      border-radius: 2rem;
+      background: var.$primary-color;
+      width: 100%;
+      height: 2.75rem;
+      & p {
+        letter-spacing: 0.3rem;
+      }
+      &:hover {
+        background: var.$white;
+        & p {
+          color: var.$primary-color;
+        }
+      }
+    }
+  }
+}

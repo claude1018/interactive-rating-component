@@ -1,0 +1,14 @@
+{
+  "name": "interactive-rating-component",
+  "version": "1.0.0",
+  "description": "challenge from frontendmentor.io",
+  "main": "index.js",
+  "author": "claude",
+  "license": "MIT",
+  "scripts": {
+    "sass:watch": "sass styles/scss/styles.scss styles/css/styles.css --watch"
+  },
+  "devDependencies": {
+    "sass": "^1.49.9"
+  }
+}

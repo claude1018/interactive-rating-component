@@ -1,0 +1,14 @@
+/* Colors */
+
+$primary-color: hsl(25, 97%, 53%);
+$white: hsl(0, 0%, 100%);
+$main-bg: hsl(228, 11%, 9%);
+$card-bg: hsl(215, 25%, 13%);
+$grey-blue: hsl(210, 19%, 18%);
+$clicked: hsl(214, 12%, 54%);
+
+@mixin md-large {
+  @media only screen and (min-width: 26.25rem) {
+    @content;
+  }
+}

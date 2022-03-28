@@ -27,14 +27,20 @@ Users should be able to:
 
 ### Screenshot
 
+<h2 align="center">Mobile</h2>
+
+<p align="center">
+<img src="./screenshot-mobile.png" alt="screen mobile" />
+</p>
+
+<h2 align="center">Desktop</h2>
+
 ![](./screenshot-desktop.png)
-
-![](./screenshot-mobile.png)
-
+  
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](interactive-rating-component-claude.vercel.app)
+- Solution URL: [FrontendMentor](https://www.frontendmentor.io/solutions/interactive-rating-component-solution-S1G9woCzq)
+- Live Site URL: [Vercel](interactive-rating-component-claude.vercel.app)
 
 ## My process
 
